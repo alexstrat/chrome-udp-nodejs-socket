@@ -8,14 +8,12 @@
     "type": "git",
     "url": "git://github.com/alexstrat/simudp.git"
   },
-  "main": "./lib/index.js",
+  "main": "./lib/simudp.js",
   "browserify": "./lib/simudp.js",
   "engines": {
     "node": ">=0.4.12"
   },
   "dependencies": {
-    "socket.io-client" : "*",
-    "socket.io"        : "~0.9",
     "browserify"       : "https://github.com/toots/node-browserify/tarball/master"
     },
   "devDependencies": {}
