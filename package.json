@@ -2,19 +2,23 @@
   "author": "alexstrat",
   "name": "simudp",
   "description": "dgram module for the browser thru a proxy based on socket.io",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "homepage": "https://github.com/alexstrat/simudp",
   "repository": {
     "type": "git",
     "url": "git://github.com/alexstrat/simudp.git"
   },
-  "main": "./lib/simudp.js",
-  "browserify": "./lib/simudp.js",
+  "main": "./lib/index.js",
+  "browser": "./lib/simudp.js",
   "engines": {
     "node": ">=0.4.12"
   },
   "dependencies": {
-    "browserify"       : "https://github.com/toots/node-browserify/tarball/master"
+    "socket.io-client" : "~0.9",
+    "socket.io"        : ">0.9.11",
+    "browserify"       : ">2.7"
     },
-  "devDependencies": {}
+  "devDependencies": {
+    "connect"          : "2.x"
+  }
 }
