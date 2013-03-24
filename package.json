@@ -1,21 +1,19 @@
 {
   "author": "alexstrat",
-  "name": "simudp",
-  "description": "dgram module for the browser thru a proxy based on socket.io",
-  "version": "0.0.16",
-  "homepage": "https://github.com/alexstrat/simudp",
+  "name": "chrome-udp-nodejs-socket",
+  "description": "Chrome UDP API: the Node.JS like way",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alexstrat/chrome-udp-nodejs-socket",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexstrat/simudp.git"
+    "url": "git@github.com:alexstrat/chrome-udp-nodejs-socket.git"
   },
   "main": "./lib/index.js",
-  "browser": "./lib/simudp.js",
+  "browser": "./lib/chrome-udp-socket.js",
   "engines": {
     "node": ">=0.4.12"
   },
   "dependencies": {
-    "socket.io-client" : "~0.9",
-    "socket.io"        : ">0.9.11",
     "browserify"       : ">2.7"
     },
   "devDependencies": {
